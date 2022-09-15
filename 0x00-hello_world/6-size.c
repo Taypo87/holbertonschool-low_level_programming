@@ -2,7 +2,7 @@
  *  File: 6-size.c
  *  Author: Taylor Poczynek
  */
-#include <studio.h>
+#include <stdio.h>
 
 char c;
 int i;
