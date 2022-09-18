@@ -9,8 +9,10 @@
 */
 int main(void)
 {
-for (int c = 'a'; c <= 'a'; c++)
-putchar(c);
+char x = 'a';
+while (x <= 'z')
+putchar (x);
 putchar ('\n');
+(x++);
 return (0);
 }
