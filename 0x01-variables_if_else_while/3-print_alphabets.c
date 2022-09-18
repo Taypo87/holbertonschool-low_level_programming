@@ -3,22 +3,22 @@
 *  Author: Taylor Poczynek
 */
 #include <stdio.h>
+/**
+* main - prints alphabet from a to z lower and uppercase
+* Return: 0
+*/
 int main(void)
 {
-/**
-*   main- displays alphabet in lower and uppercase
-*   Return: 0
-*/
-char y, x;
+char x;
 x = 'a';
-y = 'A';
 while (x <= 'z')
 {putchar (x);
 (x++);
 }
-while (y <= 'Z')
-{putchar (y);
-(y++);
+x = 'A';
+while (x <= 'Z')
+{putchar (x);
+(x++);
 }
 putchar ('\n');
 return (0);
