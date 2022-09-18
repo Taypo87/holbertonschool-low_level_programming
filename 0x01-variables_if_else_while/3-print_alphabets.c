@@ -6,11 +6,10 @@
 int main(void)
 {
 /**
-*   main - displays alphabet in lower and uppercase
+*   main- displays alphabet in lower and uppercase
 *   Return: 0
 */
-char x;
-char y;
+char y, x;
 x = 'a';
 y = 'A';
 while (x <= 'z')
