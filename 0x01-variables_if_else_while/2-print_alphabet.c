@@ -11,6 +11,6 @@ int main(void)
 {
 for (int c = 'a'; c <= 'a'; c++)
 putchar(c);
-puchchar("\n")
+putchar ('\n');
 return (0);
 }
