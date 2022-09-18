@@ -1,0 +1,16 @@
+/*
+*  File - 2-print_alphabet
+*  Author: Taylor Poczynek
+*/
+#include <stdio.h>
+/**
+*
+*
+*/
+int main(void)
+{
+char ch = a
+for (ch = 'a'; ch = 'z'; a++)
+putchar(ch);
+return (0);
+}
