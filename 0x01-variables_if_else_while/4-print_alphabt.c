@@ -9,18 +9,10 @@
 */
 int main(void)
 {
-char  x = 'a';
-while (x >= 'z');
-{
-if (x == 'e')
-{(x = x + 1);}
-}
-{
-if (x == 'q')
-{(x = x + 1);}
-}
-putchar (x);
-(x++);
+char  x ;
+for (x = 'a'; x <= 'z'; x++)
+{ if (x != 'e' && x != 'q')
+putchar(x);}
 putchar ('\n');
 return (0);
 }
