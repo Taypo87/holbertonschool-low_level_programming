@@ -15,7 +15,7 @@ for
 a < 10;
 a++)
 {
-putchar(a);
+printf("%i", a);
 }
 putchar('\n');
 return (0);
