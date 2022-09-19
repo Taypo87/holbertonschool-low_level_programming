@@ -15,7 +15,7 @@ for
 a < '9';
 a++)
 {
-putchar(n);
+putchar(a);
 }
 putchar('\n');
 return (0);
