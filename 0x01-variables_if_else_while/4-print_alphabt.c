@@ -13,11 +13,11 @@ char  x = 'a';
 while (x >= 'z')
 {
 if (x == 'e');
-(x = x + 1);
+{(x = x + 1)};
 }
 {
 if (x == 'q');
-(x = x + 1);
+{(x = x + 1)};
 }
 putchar (x);
 (x++);
