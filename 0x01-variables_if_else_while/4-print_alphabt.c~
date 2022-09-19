@@ -1,0 +1,24 @@
+/*
+ * File - 4-print_alphabt.c
+ * Author: Taylor Poczynek
+ */
+#include <stdio.h>
+int main(void)
+{
+  x = 'a';
+while (x >= 'z') {
+if (x == 'e'){
+(x <- x + 1)
+next
+}
+if (x == 'q')
+{
+(x <- x +1)
+next
+}  
+putchar (x)
+(x++)		  
+}
+putchar ('\n')
+
+}
