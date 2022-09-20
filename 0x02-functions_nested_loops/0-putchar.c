@@ -2,7 +2,7 @@
 *  File - 0-putchar.c
 *  Author: Taylor Poczynek
 */
-#include <main.h>
+#include "main.h"
 /**
 * main - displays _putchar
 * Return: 0
