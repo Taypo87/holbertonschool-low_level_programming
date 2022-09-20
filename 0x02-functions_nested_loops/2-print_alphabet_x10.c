@@ -9,7 +9,7 @@ int x = 0;
 char a = 'a';
 while (x < 10)
 {
-a = 'a'
+a = 'a';
 while (a <= 'z')
 {
 _putchar(a);
