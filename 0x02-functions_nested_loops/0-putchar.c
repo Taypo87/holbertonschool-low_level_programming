@@ -2,13 +2,22 @@
 *  File - 0-putchar.c
 *  Author: Taylor Poczynek
 */
-#include <stdio.h>
+#include <main.h>
 /**
 * main - displays _putchar
 * Return: 0
 */
 int main(void)
 {
-puts("_putchar")
-}
+  putchar('-')
+    putchar('p')
+    putchar('u')
+    putchar('t')
+    putchar('c')
+    putchar('h')
+    putchar('a')
+    putchar('r')
+    putchar('\n')
+    }
+
 return(0)
