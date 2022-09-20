@@ -10,6 +10,7 @@ char a = 'a';
 while (x < 10)
 {
 while (a <= 'z')
+  a = 'a';
 {
 _putchar(a);
 (a++);
