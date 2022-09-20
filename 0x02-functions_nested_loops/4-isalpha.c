@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *
- *
- *
+ * _isalpha - checks if c is a letter
+ * @c: letter
+ * Return: 1 if sucess 0 if not
  */
 int _isalpha(int c)
 {
