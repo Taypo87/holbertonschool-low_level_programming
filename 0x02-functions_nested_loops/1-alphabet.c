@@ -1,17 +1,17 @@
 #include "main.h"
 /*
-*  File -
+*  File - 1-alphabet.c
 *  Author: Taylor Poczynek
 */
 /**
-*  main -
+*  main - writes the alphabet using prototypes
 *  Return: 0
 */
 void print_alphabet(void)
 {
 char c; 
 for
-(c = 'a'; c < 'z'; ++c)
+(c = 'a'; c <= 'z'; ++c)
 {
 _putchar(c);
 }
