@@ -9,8 +9,8 @@ int x = 0;
 char a = 'a';
 while (x < 10)
 {
+a = 'a'
 while (a <= 'z')
-  a = 'a';
 {
 _putchar(a);
 (a++);
