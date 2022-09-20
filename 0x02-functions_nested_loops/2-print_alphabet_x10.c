@@ -1,6 +1,10 @@
+/*
+ *  File 2-print_alphabet_x10.c
+ *  Author: Taylor Poczynek
+ */
 #include "main.h"
 /**
- * print_alphabet_x10 prints the alphabet 10 times
+ * print_alphabet_x10 - prints the alphabet 10 times
  * Return: void
  */
 void print_alphabet_x10(void)
