@@ -11,7 +11,7 @@ void print_square(int size)
 int row = size;
 int count;
 
-while (row > 0)
+while (row >= 0)
 {
 row--;
 count = size;
@@ -22,4 +22,5 @@ count--;
 }
 _putchar('\n');
 }
+
 }
