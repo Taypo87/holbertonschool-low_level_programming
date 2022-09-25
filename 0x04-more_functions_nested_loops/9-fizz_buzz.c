@@ -25,8 +25,8 @@ else
 {
 printf("%d", n);
 }
-printf(" ");
 n++;
+printf (" ");
 }
 printf("\n");
 return (0);
