@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- *
- *
- *
+ * main - prints 1-100 fizz for 3 buzz for 5 fizbuzz for 15
+ * Return: 0
  */
 int main(void)
 {
