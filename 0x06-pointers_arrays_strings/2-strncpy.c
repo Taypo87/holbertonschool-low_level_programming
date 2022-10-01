@@ -2,6 +2,8 @@
 
 /**
  * _strncpy - copies a string
+ * @dest: to be copied to
+ * @n: variable
  * @src:string to be copied
  * Return: copied string
  */
