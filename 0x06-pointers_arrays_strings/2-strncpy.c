@@ -5,7 +5,7 @@
  * @src:string to be copied
  * Return: copied string
  */
-
+{
 
 	while (i < n && src[i] != '\0')
 	{
