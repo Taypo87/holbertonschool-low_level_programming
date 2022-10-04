@@ -13,11 +13,11 @@ int y;
 
 while (x < 8)
 {
-	x++;
 	for (y = 0; y < 8; y++)
 	{
 		_putchar(a[x][y]);
 			}
 	_putchar('\n');
+	x++;
 }
 }
