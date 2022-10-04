@@ -14,7 +14,7 @@ int y;
 while (x < 8)
 {
 	x++;
-	for (y = o; y < 8; y++)
+	for (y = 0; y < 8; y++)
 	{
 		_putchar(a[x][y]);
 			}
