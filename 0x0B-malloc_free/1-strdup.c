@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -7,7 +7,7 @@
  * Return: NULL or pointer to copied string
  */
 
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	char *strcpy;
 	int i, j;
@@ -26,7 +26,7 @@ char *_strdup(char *str);
 	j = 0;
 	while(str[j] != '\0')
 	{
-		strcpy[j] = str[j]
+		strcpy[j] = str[j];
 			j++;
 	}
 	return (strcpy);
