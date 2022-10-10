@@ -1,0 +1,18 @@
+#include "main.h"
+/**
+ * puts2 - prints every other character in a string
+ * @str: variable location
+ *
+ */
+void puts2(char *str)
+{
+	int i, c;
+
+for (i = 0; str[i] != '\0'; i++)
+if (x % 2 == 0)
+_putchar(str[x]);
+
+_putchar('\n');
+
+
+}
