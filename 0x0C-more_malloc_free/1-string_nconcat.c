@@ -39,6 +39,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		free(s3);
 		return (NULL);
+	}
 	j = 0;
 
 	while (s1[j] != '\0')
