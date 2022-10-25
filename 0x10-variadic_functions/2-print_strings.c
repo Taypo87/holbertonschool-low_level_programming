@@ -10,13 +10,13 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list args;
 	unsigned int i;
-	char *pts;
+	char *ptr;
 
-	va_start(strings, n);
+	va_start(args, n);
 	for (i = 0; i < n; i++)
 	{
 		ptr = va_arg(args, char *);
-		if (ptr = NULL)
+		if (ptr == NULL)
 			printf("(nil)");
 		else
 		{
