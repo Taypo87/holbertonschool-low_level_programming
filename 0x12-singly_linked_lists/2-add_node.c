@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <string.h>
+#include <stdlib.h>
 /**
  * add_node - adds a node to the begining of the list list_t
  * @head: a pointer to the head of list_t
@@ -24,7 +25,7 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 	}
 
-	while (str[len] != "\0")
+	while (str[len])
 		len++;
 
 	new->str = str2;
