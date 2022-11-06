@@ -1,5 +1,5 @@
 #include "lists.h"
-
+#include <string.h>
 /**
  * add_node - adds a node to the begining of the list list_t
  * @head: a pointer to the head of list_t
