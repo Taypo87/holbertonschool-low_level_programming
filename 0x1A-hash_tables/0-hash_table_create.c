@@ -1,5 +1,5 @@
 #include "hash_tables.h"
-
+#include <stdint.h>
 /**
  * hash_table_create - creates a hash table of hash_table_t type
  * @size: size of the array of in hash table
@@ -10,6 +10,9 @@ hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *table;
 	unsigned int i;
+
+	if (size < 1 || size > SIZE_MAX)
+		return(NULL);
 
 	table = malloc(sizeof(hash_table_t));
 	if (table == NULL)
