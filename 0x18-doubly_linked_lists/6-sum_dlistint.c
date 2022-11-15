@@ -14,7 +14,7 @@ int sum_dlistint(dlistint_t *head)
 	node = malloc(sizeof(dlistint_t));
 
 	if (node == NULL)
-		return(0);
+		return (0);
 	node = head;
 
 	while (node)
