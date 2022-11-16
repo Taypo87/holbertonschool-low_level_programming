@@ -22,7 +22,7 @@ size_t print_dlistint_backward(const dlistint_t *h)
 
 	while (tail)
 	{
-		printf("%i", tail->n);
+		printf("%i\n", tail->n);
 		tail = tail->prev;
 	}
 	return (count);
